@@ -9,13 +9,22 @@ body{
     background-color: rgb(200, 200, 200);
 }
 
-
-
 header{
-    background-color: white;
-     
+    background-color: white;   
+}
+
+.container{
+    padding-top: 10px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+#logo{
+    vertical-align: middle;
 }
 
 h1{
     display: inline;
+    vertical-align: middle;
+    font-size: 2.5rem;
 }
