@@ -62,6 +62,9 @@ ul{
     list-style-type: none;
     padding: 15px 0;
 }
+li{
+    padding: 10px;
+}
 
 
 .circle-up{
@@ -83,17 +86,64 @@ ul{
     color: red;   
 }
 
+.arrow{
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+/* Etichette */
 .label{
     border-radius: 15px;
     display: inline-block;
     text-align: center;
-    background-color:  rgb(54, 197, 249);;
+    background-color:  rgb(54, 197, 249);
+    padding: 6px;
+    font-size: 0.7rem;
+    color: white;
+}
+.labelrec{
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color:  lightgreen;
+    padding: 6px;
+    font-size: 0.7rem;
+    color: white;
+}
+.labeled{
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color:  orange;
+    padding: 6px;
+    font-size: 0.7rem;
+    color: white;
+}
+.labelq{
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color:  purple;
+    padding: 6px;
+    font-size: 0.7rem;
+    color: white;
+}
+.labelweb{
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color:  pink;
+    padding: 6px;
+    font-size: 0.7rem;
+    color: white;
+}
+.labels{
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    background-color:greenyellow;
     padding: 6px;
     font-size: 0.7rem;
     color: white;
 }
 
-.arrow{
-    font-size: 0.8rem;
-    display: inline-block;
-}
